@@ -8,6 +8,8 @@ const loaf = {
   }
 };
 
+console.log(loaf.flour, loaf.water);
+
 console.log(loaf.hydration());
 
 
