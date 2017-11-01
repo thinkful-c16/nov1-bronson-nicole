@@ -32,6 +32,9 @@ function decode(string) {
     case 'd':
       decodedMessage += word.charAt(code.d-1);
       break;
+      
+    default: 
+      decodedMessage += ' ';
     }
   }
   );
