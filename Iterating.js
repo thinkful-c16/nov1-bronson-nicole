@@ -9,5 +9,5 @@ const obj = {
 };
   
 for (const prop in obj) {
-    console.log(`${prop} = ${obj[prop]}`)
+  console.log(`${[prop]} = ${obj[prop]}`)
 }
