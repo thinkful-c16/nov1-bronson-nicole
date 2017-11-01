@@ -2,19 +2,28 @@
 
 const people = [
   {
+    name: 'John',
+    jobtitle: 'Founder',
+    boss: Null
+  },
+  {
     name: 'Bob',
-    jobtitle: 'mechanic' 
+    jobtitle: 'mechanic', 
+    boss: 'John'
   },
   {
     name: 'Lucy',
-    jobtitle: 'teacher'
+    jobtitle: 'teacher',
+    boss: 'John'
   },
   {
     name: 'Jill',
-    jobtitle: 'engineer'
+    jobtitle: 'engineer',
+    boss: 'John'
   }
 ];
 
+
 people.forEach(person =>
-  console.log(`${person.name} is a ${person.jobtitle}`)
+  console.log(`${person.jobtitle} ${person.name} reports to ${person.boss}.`)
 );
